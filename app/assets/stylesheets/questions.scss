@@ -1,0 +1,35 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.answer{
+  background-color: #ffffe1;
+  padding: 20px;
+}
+
+a {
+  border: .5px solid rgb(218, 204, 204);
+  padding: 10px;
+  background-color: rgb(223, 230, 223);
+  border-radius: 10px;
+   color: rgb(141, 77, 77);
+   &:hover {
+     color: black;
+   }
+ }
+
+ .form_tag {
+width: 250px;
+height: 30px;
+border-radius: 5px;
+ }
+
+ .form_question{
+height: 34px;
+border-radius: 5px;
+background-color: rgb(186, 208, 233);
+ }
+
+ .form_question:hover{
+   background-color: chartreuse;
+ }
